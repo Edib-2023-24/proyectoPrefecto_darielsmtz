@@ -22,5 +22,9 @@ No queremos que te pierdas nada. Puedes seguirnos en nuestras redes sociales par
 
 ¡Gracias por tu interés y paciencia! Estamos entusiasmados de compartir contigo nuestra página completa muy pronto.
 
+- [Twitter](https://twitter.com/ejemplo)
+- [Facebook](https://facebook.com/ejemplo)
+- [Instagram](https://instagram.com/ejemplo)
+
 Atentamente,
 El Equipo de Edib
