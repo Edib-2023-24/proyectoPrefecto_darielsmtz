@@ -1,37 +1,59 @@
+/* *********************************** */
+@import url(normalize.min.css);
+@import url(reset.css);
+
+/* *********************************** */
+/* *** ESTILOS GENERALES *** */
+/* *********************************** */
+
+/*------- Tipografias ------------ */
 @font-face {
   font-family: "Helvetica Neue";
-  src: url(../font/HelveticaNeueRoman.otf);
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  src: url("../font/helveticaneueroman-webfont.woff2") format("woff2"),
+    url("../font/helveticaneueroman-webfont.woff2") format("woff");
 }
 
-body {
+/* ------ Variables --------- */
+:root {
+  /* Colores */
+  --color_blanco: #f4f4f4;
+  --color_texto: #333;
+  --color_negro: #00000040;
+
+  /* Tamaños */
+  --radio: 10px;
+}
+
+/* ------- Estilos Generales -------- */
+html {
   font-family: "Helvetica Neue", sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
-  line-height: 1.6;
   font-size: 16px;
+}
+
+/* ------- Cuerpo de la Pagina ------- */
+body {
+  background-color: var(--color_blanco);
+  color: var(--color_texto);
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
   height: 100vh;
 
+  /* Apartado del contenedor del boton */
   .btn {
     padding: 30px 20px;
-    background-color: #f4f4f4;
-    color: #333;
-    border-radius: 10px;
-    box-shadow: 0px 4px 4px 0px #00000040;
+    background-color: var(--color_blanco);
+    color: var(--color_texto);
+    border-radius: var(--radio);
+    box-shadow: 0px 4px 4px 0px var(--color_negro);
     user-select: none;
 
+    /* El enlace del boton */
     > a {
       text-decoration: none;
-      color: #333;
+      color: var(--color_texto);
       text-wrap: 400;
-      tab-size: 32px;
     }
   }
 }
